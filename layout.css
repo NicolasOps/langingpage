@@ -1,0 +1,127 @@
+body {
+    background-image: url("img/Grupo161.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -9px;
+    background-size:auto;
+    position: relative;
+    margin: 0 auto;  
+    
+}
+/*Cabecera*/
+header h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+
+/*Menu*/
+main {
+    position: relative;
+    display: flexbox;
+}
+/*posición de Imagen*/
+main .img {
+    position: relative;
+    text-align: center;
+    top: 105px;
+} 
+/*Imagen*/
+main .img img {
+    width: 130px;
+    height: 130px;
+    border-radius: 20%;
+}
+/*Texto 1*/
+.texto-1 h3{
+    position: relative;
+    text-align: center;
+    color: #3B3A38;
+    top: 95px;
+}
+/*Caja*/
+.box {
+    position: relative;
+    text-align: center;
+}
+.box p {
+    font-size:small;
+    position: relative;
+    top: 95px;
+}
+.box form {
+    position: relative;
+    top: 95px;
+}
+/*span e imput*/
+input {
+position: relative;
+display: inline-block;
+font-size: 20px;
+box-sizing: border-box;
+border: none;
+border-top-right-radius: 6em;
+border-bottom-right-radius: 6em;
+background-color: #CFCFCF;
+}
+span {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border-top-left-radius: 6em;
+    border-bottom-left-radius: 6em;
+    left: 4px;
+    top: -3px;
+    height: 26px;
+    font-size: 20px;
+    color:white;
+    background-color: red;
+}
+main .example p{
+    color: gray;
+    font-size: 10px;
+    box-sizing: border-box;
+    position: relative;
+    top: 100px; 
+}
+/*posición del boton*/
+main button {
+display:flex;
+justify-content: center;
+top: 115px;
+margin: 0 auto;
+}
+/*Boton*/
+button {
+    position: relative;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 14px 90px;
+    background-color: #FFB762;
+    border: 1xp solid gray;
+    color:  #3B3A38;
+}
+
+
+/*Pie de página*/
+footer {
+    position: relative;
+    text-align: center;
+}
+footer .BL a {
+     position: relative;
+     top: 136px;
+     color: white; 
+}
+footer .BL-Contenido {
+    position: relative;
+    top: 130px;
+    font-style: italic;
+    font-size: 9px;
+    color: white;
+}
+ 
+ 
